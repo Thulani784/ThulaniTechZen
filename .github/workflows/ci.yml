@@ -9,6 +9,8 @@
 name: CI
 
 on:
+workflow_dispatch:
+
   pull_request:
     branches: [ main, master ]
   push:
