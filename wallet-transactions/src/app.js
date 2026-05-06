@@ -2,7 +2,7 @@ const express = require('express');
 
 const app = express();
 app.use(express.json());
-//thulani 15
+//thulani15
 const wallets = new Map(); // in-memory store: walletId -> { balance, transactions }
 //thulani
 function getWallet(id) {
