@@ -4,7 +4,7 @@ const app = express();
 app.use(express.json());
 
 const wallets = new Map(); // in-memory store: walletId -> { balance, transactions }
-
+//thulani
 function getWallet(id) {
   if (!wallets.has(id)) {
     wallets.set(id, { balance: 0, transactions: [] });
